@@ -1,1 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+body, input, button {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #202124;
+}
+
+
+/* Links in the navigation area. */
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+nav > ul > li {
+    margin-right: 20px;
+    color: rgba(0,0,0,0.87);
+    cursor: pointer;
+}
+
+/* Gmail picture */
+.resim {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resim svg {
+    position: absolute;
+    align-self: center;
+    margin: auto;
+}
+
+.resim img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    z-index: 9;
+}
+
+.orta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    height: 44px;
+    flex: 1;
+    width: 100%;
+    max-width: 554px;
+    margin: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: none;
+    margin: 20px auto;
+}
+
+
+.search input {
+    background-color: #fff;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    height: 34px;
+    font-size: 1em;
+    flex: 1 1 100%;
+    
+}
+
+.left-svg {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    fill: #9aa0a6;;
+}
+
+.right-svg {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.language {
+    color: #3c4043;
+    line-height: 28px;
+    font-size: small;
+}
+
+.language a {
+    padding: 0 3px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+footer {
+    background: #f2f2f2;
+    color: #70757a;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+
+footer > div:nth-child(1) {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer1 div, .footer2 div {
+    padding: 15px;
+    cursor: pointer;
+}
